@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.user-directory{
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  column-gap: 1%;
+  font-weight: 400;
+}
+.user-directory .MuiCard-root{
+  padding-bottom: 20px;
+}
+.user-directory .MuiCardMedia-root{
+  margin-bottom: 10px;
+}
+.user-directory h3,
+.user-directory h5{
+  margin: 0;
+}
+.MuiGrid-root.selectedUserDisplay{
+  margin-top: 55px;
+  padding-top: 0;
+  font-weight: 400;
+}
+.MuiGrid-root.selectedUserDisplay h2,
+.MuiGrid-root.selectedUserDisplay h4{
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
